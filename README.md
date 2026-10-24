@@ -3,7 +3,7 @@
 
 Aplicación web desarrollada en ASP.NET Core MVC con Entity Framework Core para administrar estudiantes, maestros, aulas, libros y materias.
 
-Proyecto del Grupo 10 — Autoevaluación Formativa.
+Proyecto del Grupo 5 — Autoevaluación Formativa.
 
 ## Integrantes y entidad desarrollada
 
