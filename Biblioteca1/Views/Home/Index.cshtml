@@ -1,8 +1,50 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Sistema de Gestión Escolar</h1>
+        <p class="lead">Bienvenido al sistema de administración escolar</p>
+        <p>Selecciona una sección para comenzar</p>
+    </div>
+
+    <div class="row justify-content-center g-4">
+
+        <div class="col-md-4">
+            <a asp-controller="Estudiantes" asp-action="Index"
+               class="btn btn-primary btn-lg w-100 p-4">
+                Estudiantes
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a asp-controller="Maestros" asp-action="Index"
+               class="btn btn-success btn-lg w-100 p-4">
+                Maestros
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a asp-controller="Aulas" asp-action="Index"
+               class="btn btn-warning btn-lg w-100 p-4">
+                Aulas
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a asp-controller="Libros" asp-action="Index"
+               class="btn btn-info btn-lg w-100 p-4">
+                Libros
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a asp-controller="Materias" asp-action="Index"
+               class="btn btn-danger btn-lg w-100 p-4">
+                Materias
+            </a>
+        </div>
+
+    </div>
 </div>
