@@ -1,4 +1,4 @@
-# AutoevaluacionFormativa_Grupo10
+# AutoevaluacionFormativa_Grupo 5
 # Sistema de Gestión Escolar
 
 Aplicación web desarrollada en ASP.NET Core MVC con Entity Framework Core para administrar estudiantes, maestros, aulas, libros y materias.
